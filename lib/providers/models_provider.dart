@@ -4,7 +4,6 @@ import '../models/models_model.dart';
 import '../services/api_service.dart';
 
 class ModelsProvider with ChangeNotifier {
-  // String currentModel = "text-davinci-003";
   String currentModel = "gpt-3.5-turbo-0301";
 
   String get getCurrentModel {
